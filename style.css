@@ -38,6 +38,10 @@ background-color: #F2F2F2;
    justify-content: space-between;
    text-decoration: none;
    list-style-type: none;
+   margin-top: 0px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
 }
 a {
     text-decoration: none;
