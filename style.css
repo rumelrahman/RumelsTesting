@@ -1,0 +1,21 @@
+body {
+    margin: 0px;
+background-color: #F2F2F2;    
+}
+
+.Navbar {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: auto;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    border-bottom: 1px solid lightgray;
+}
+
+.menu {
+
+}
