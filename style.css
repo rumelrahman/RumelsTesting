@@ -1,23 +1,23 @@
 li {
-  text-decoration: none;
-  list-style-type: none;
-  margin-right: 20px;
+
   display: flex;
   flex-direction: row;
-  padding: 2px 16px;
-  align-items: center;
   justify-content: center;
-  width: 200px;
-  height: auto;
-  left: 20px;
-  right: 20px;
+  align-items: center;
+  padding: 15px;
+  width: 80px;
+  height: 40px;
+  top: 20px;
+  background: #3C46B0;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 
-  background-color: lightblue;
-  border: 0.5px solid grey;
-  box-sizing: border-box;
-  border-radius: 3px;
 }
 
 a {
-
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
 }
