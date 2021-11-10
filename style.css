@@ -35,12 +35,14 @@ background-color: #F2F2F2;
 .mylinks {
    background-color: rgb(238, 238, 238);
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
    text-decoration: none;
    list-style-type: none;
    margin-top: 0px;
    padding-top: 10px;
    padding-bottom: 10px;
+   padding-right: 10px;
+   border-bottom: 1px solid rgb(220, 224, 230);
 
 }
 a {
