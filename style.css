@@ -53,6 +53,30 @@ background-color: #F2F2F2;
     max-width: 800px;
 }
 
+.Contentblocks {
+    background-color: white;
+    margin: 1em 1em 1em 1em;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+   
+}
+
+.articles {
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.articleimage {
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.articlebody {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
 
 
 a {
