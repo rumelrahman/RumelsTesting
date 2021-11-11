@@ -66,9 +66,11 @@ color: black;
 }
 
 .Contentblocks {
+    display: block;
     background-color: white;
     margin: 1em 1em 1em 1em;
     border: 1px solid lightgray;
+    padding-bottom: 1em;
    
 }
 
@@ -77,7 +79,7 @@ color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0em 1em 0em 0em;
+    padding: 0em 1em 0.5em 0em;
 }
 
 .articleimage {
@@ -96,11 +98,21 @@ a {
     font-size: 1em;
 }
 
-H1 {
+h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     color: darkslategray;
 }
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: darkslategray;
+    margin-top: 0.11em;
+    margin-bottom: 0.5em;
+}
+
+
 
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -112,4 +124,15 @@ H1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
     font-weight: 700;
+}
+
+.getstarted {
+    display: block;
+    padding: 1em 1em 1em 1em;
+    background-color: rgb(38, 35, 185);
+    border: 0px solid;
+    border-radius: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
 }
