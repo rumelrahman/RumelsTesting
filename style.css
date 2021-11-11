@@ -137,7 +137,7 @@ h2 {
     padding: 10px 10px;
     margin: 10px 10px;
     background-color: white;
-    border: 1px solid lightslategray;
+    border: 1px solid rgb(213, 221, 230);
     border-radius: 6px;
 }
 
@@ -153,11 +153,19 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     font-weight: bold;
-    color: slategray;
+    color:rgb(37, 36, 36);
     margin-bottom: 10px;
+}
+
+.articlebody {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .readmore {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    color: #4361ee;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
