@@ -9,6 +9,9 @@ color: black;
 /* Primary Navigation */
 
 .Navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
     background: white;
     display: flex;
     flex-direction: row;
@@ -48,19 +51,19 @@ color: black;
 
 }
 
-.heroimage {
-    margin-top: 0px;
-    padding-top: 0px;
+.hero {
     
 }
 
 .heroimage {
+    margin-top: 0px;
+    padding-top: 0px;
     position: absolute;
     z-index: -1;
 }
 
 .herotext {
-    margin: 1em 1em 1em 1em;
+    margin-left: 1em;
     display: block;
     padding: 1em 1em 1em 1em;
     background-color:rgba(255, 255, 255, 0.90);
