@@ -195,9 +195,26 @@ a {
 }
 
 
-/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* Responsive layout - makes two column layout instead of one column layout */
 @media (max-width: 800px) {
     .articlecontainer {
       flex-direction: column;
-    }
+       }
+
+       
+
+    
   }
+
+  @media (min-width: 800px) {
+      .menu {
+          display: none;
+      }
+    
+
+       
+
+    
+  }
+
+  
